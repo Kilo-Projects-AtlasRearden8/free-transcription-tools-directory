@@ -1,0 +1,358 @@
+{
+  "title": "Free Transcription and Caption Tools Directory",
+  "subtitle": "Free no-account transcription and caption tools — cost, platform, setup steps, and official links. Includes free tiers and local options.",
+  "credits": "Published by Asdale Dynamics, LLC (Indiana, formed Oct 2026). Beginner-friendly AI education, books, and practical tools.",
+  "tools": [
+    {
+      "id": "win-live-captions",
+      "name": "Windows Live Captions",
+      "cost": "Free",
+      "costDetail": "Built into Windows 11 at no extra cost; runs locally on your PC",
+      "platforms": ["Windows"],
+      "devices": ["Desktop", "Laptop", "Surface"],
+      "category": "Captions",
+      "need": "Live captions",
+      "builtIn": true,
+      "setup": "Press Windows+Ctrl+L to turn Live Captions on. Download the language pack when prompted, then pick your caption style and microphone source in Settings > Accessibility > Captions. Works for any audio playing on your PC, including microphone input.",
+      "link": "https://support.microsoft.com/windows/use-live-captions-to-understand-audio-better",
+      "tags": ["captions", "live captions", "deaf", "hard of hearing", "windows 11", "built-in", "local"]
+    },
+    {
+      "id": "macos-live-captions",
+      "name": "macOS Live Captions",
+      "cost": "Free",
+      "costDetail": "Built into macOS at no extra cost",
+      "platforms": ["macOS"],
+      "devices": ["MacBook", "iMac", "Mac mini", "Mac Studio"],
+      "category": "Captions",
+      "need": "Live captions",
+      "builtIn": true,
+      "setup": "Open System Settings > Accessibility > Live Captions (beta) and turn it on. Captions appear in a floating window for any audio playing on your Mac.",
+      "link": "https://support.apple.com/guide/mac-help/use-live-captions-on-mac-mh42238/mac",
+      "tags": ["captions", "live captions", "deaf", "hard of hearing", "macos", "built-in"]
+    },
+    {
+      "id": "ios-live-captions",
+      "name": "iOS Live Captions",
+      "cost": "Free",
+      "costDetail": "Built into iOS 16 and later at no extra cost",
+      "platforms": ["iOS"],
+      "devices": ["iPhone", "iPad"],
+      "category": "Captions",
+      "need": "Live captions",
+      "builtIn": true,
+      "setup": "Open Settings > Accessibility > Live Captions (beta) and turn it on. Type-to-speak responses are also supported during FaceTime and phone calls.",
+      "link": "https://support.apple.com/guide/iphone/use-live-captions-iphone",
+      "tags": ["captions", "live captions", "deaf", "hard of hearing", "ios", "built-in"]
+    },
+    {
+      "id": "chrome-live-caption",
+      "name": "Chrome Live Caption",
+      "cost": "Free",
+      "costDetail": "Built into the Chrome browser at no extra cost",
+      "platforms": ["Chrome (any OS)", "ChromeOS"],
+      "devices": ["Chrome browser", "Chromebook"],
+      "category": "Captions",
+      "need": "Live captions",
+      "builtIn": true,
+      "setup": "Open Chrome Settings > Accessibility and turn on Live Caption. Captions appear automatically for videos and audio playing in Chrome tabs.",
+      "link": "https://support.google.com/chrome/answer/99619157",
+      "tags": ["captions", "live captions", "deaf", "hard of hearing", "chrome", "built-in"]
+    },
+    {
+      "id": "android-live-transcribe",
+      "name": "Live Transcribe & Sound Notifications",
+      "cost": "Free",
+      "costDetail": "Free app from Google",
+      "platforms": ["Android"],
+      "devices": ["Android phone", "Android tablet"],
+      "category": "Captions",
+      "need": "Live captions",
+      "builtIn": false,
+      "setup": "Install Live Transcribe from the Play Store, then enable it in Settings > Accessibility > Live Transcribe. It transcribes speech in real time and can alert you to sounds like doorbells or alarms.",
+      "link": "https://support.google.com/android/answer/9206238",
+      "tags": ["captions", "transcription", "deaf", "hard of hearing", "android"]
+    },
+    {
+      "id": "android-select-to-speak",
+      "name": "Android Select to Speak",
+      "cost": "Free",
+      "costDetail": "Built into Android at no extra cost",
+      "platforms": ["Android"],
+      "devices": ["Android phone", "Android tablet"],
+      "category": "Reading / playback",
+      "need": "Text-to-speech (read aloud)",
+      "builtIn": true,
+      "setup": "Open Settings > Accessibility > Select to Speak and turn it on. Tap the Play button or tap items on screen to hear them read aloud.",
+      "link": "https://support.google.com/android/answer/9206284",
+      "tags": ["read aloud", "text to speech", "reading aid", "android", "built-in"]
+    },
+    {
+      "id": "win-dictation",
+      "name": "Windows Dictation",
+      "cost": "Free",
+      "costDetail": "Built into Windows at no extra cost",
+      "platforms": ["Windows"],
+      "devices": ["Desktop", "Laptop", "Surface"],
+      "category": "Dictation",
+      "need": "Speak to type",
+      "builtIn": true,
+      "setup": "Press Windows+H in any text field to start dictation. Say punctuation like 'period' or 'comma' as you speak. Enable online speech recognition in Settings > Privacy & security > Speech.",
+      "link": "https://support.microsoft.com/windows/dictate-text-using-speech-recognition",
+      "tags": ["dictation", "speech-to-text", "windows", "built-in"]
+    },
+    {
+      "id": "win-voice-access",
+      "name": "Windows Voice Access",
+      "cost": "Free",
+      "costDetail": "Built into Windows 11 at no extra cost",
+      "platforms": ["Windows"],
+      "devices": ["Desktop", "Laptop", "Surface"],
+      "category": "Dictation",
+      "need": "Speak to type",
+      "builtIn": true,
+      "setup": "Open Settings > Accessibility > Speech > Voice Access and turn it on. Download the language pack when prompted, then say 'Voice Access wake up' to begin controlling your PC and dictating by voice.",
+      "link": "https://support.microsoft.com/windows/use-voice-access-to-control-your-pc-with-your-voice",
+      "tags": ["voice control", "dictation", "motor", "mobility", "windows 11", "built-in"]
+    },
+    {
+      "id": "macos-dictation",
+      "name": "macOS Dictation",
+      "cost": "Free",
+      "costDetail": "Built into macOS at no extra cost",
+      "platforms": ["macOS"],
+      "devices": ["MacBook", "iMac", "Mac mini", "Mac Studio"],
+      "category": "Dictation",
+      "need": "Speak to type",
+      "builtIn": true,
+      "setup": "Open System Settings > Keyboard > Dictation and turn it on. Press the Fn key (or the Dictation key) twice to start speaking wherever you can type.",
+      "link": "https://support.apple.com/guide/mac-help/dictate-text-on-mac",
+      "tags": ["dictation", "speech-to-text", "macos", "built-in"]
+    },
+    {
+      "id": "macos-voice-control",
+      "name": "macOS Voice Control",
+      "cost": "Free",
+      "costDetail": "Built into macOS at no extra cost",
+      "platforms": ["macOS"],
+      "devices": ["MacBook", "iMac", "Mac mini", "Mac Studio"],
+      "category": "Dictation",
+      "need": "Speak to type",
+      "builtIn": true,
+      "setup": "Open System Settings > Accessibility > Voice Control and turn it on. Number overlays and a grid let you click, scroll, and navigate entirely by voice.",
+      "link": "https://support.apple.com/guide/mac-help/control-your-mac-using-voice-control",
+      "tags": ["voice control", "motor", "mobility", "macos", "built-in"]
+    },
+    {
+      "id": "ios-dictation",
+      "name": "iOS Dictation",
+      "cost": "Free",
+      "costDetail": "Built into iOS at no extra cost",
+      "platforms": ["iOS"],
+      "devices": ["iPhone", "iPad"],
+      "category": "Dictation",
+      "need": "Speak to type",
+      "builtIn": true,
+      "setup": "Open Settings > General > Keyboard and turn on Enable Dictation. Tap the microphone icon on the keyboard to dictate text in any app.",
+      "link": "https://support.apple.com/guide/iphone/dictate-text-on-iphone",
+      "tags": ["dictation", "speech-to-text", "ios", "built-in"]
+    },
+    {
+      "id": "gboard",
+      "name": "Gboard Voice Typing",
+      "cost": "Free",
+      "costDetail": "Free keyboard app from Google",
+      "platforms": ["Android", "iOS"],
+      "devices": ["Android phone", "Android tablet", "iPhone", "iPad"],
+      "category": "Dictation",
+      "need": "Speak to type",
+      "builtIn": false,
+      "setup": "Install Gboard from the Play Store (Android) or App Store (iOS), set it as your keyboard, then tap the microphone icon on the keyboard to dictate text.",
+      "link": "https://gboard.blogspot.com/",
+      "tags": ["dictation", "speech-to-text", "android", "ios", "keyboard"]
+    },
+    {
+      "id": "whisper-local",
+      "name": "OpenAI Whisper (local)",
+      "cost": "Free",
+      "costDetail": "Free and open source; runs locally on your own computer via Python/pip",
+      "platforms": ["Windows", "macOS", "Linux"],
+      "devices": ["Desktop", "Laptop"],
+      "category": "Transcription",
+      "need": "Audio/video to text",
+      "builtIn": false,
+      "setup": "Install Python from python.org, then run `pip install faster-whisper`. Transcribe a file with `python -m faster_whisper transcribe audio.mp3 --model base --output_format txt`. No audio leaves your computer.",
+      "link": "https://github.com/openai/whisper",
+      "tags": ["transcription", "speech-to-text", "local ai", "open source", "privacy", "no account"]
+    },
+    {
+      "id": "whisper-cpp",
+      "name": "Whisper.cpp",
+      "cost": "Free",
+      "costDetail": "Free and open source C++ port of Whisper; fast on CPU, no Python needed",
+      "platforms": ["Windows", "macOS", "Linux", "Android"],
+      "devices": ["Desktop", "Laptop"],
+      "category": "Transcription",
+      "need": "Audio/video to text",
+      "builtIn": false,
+      "setup": "Download a prebuilt binary from the GitHub releases page (or install with `brew install whisper.cpp` on Mac). Run `whisper-cli -m models/ggml-base.en.bin -f meeting.wav -of output` to get a local transcript.",
+      "link": "https://github.com/ggerganov/whisper.cpp",
+      "tags": ["transcription", "speech-to-text", "local ai", "open source", "privacy", "no account", "c++"]
+    },
+    {
+      "id": "vosk",
+      "name": "Vosk",
+      "cost": "Free",
+      "costDetail": "Free and open source lightweight speech recognition; small offline models",
+      "platforms": ["Linux", "Android"],
+      "devices": ["Desktop", "Laptop", "Android phone", "Raspberry Pi"],
+      "category": "Transcription",
+      "need": "Audio/video to text",
+      "builtIn": false,
+      "setup": "Download a model from alphacephei.com/vosk/models, then use the Vosk API or command-line tool to transcribe audio offline. Models are around 50 MB, so it runs on low-end hardware.",
+      "link": "https://alphacephei.com/vosk/",
+      "tags": ["transcription", "speech-to-text", "local ai", "open source", "privacy", "offline", "low-end"]
+    },
+    {
+      "id": "otranscribe",
+      "name": "oTranscribe",
+      "cost": "Free",
+      "costDetail": "Free and open source web-based transcription player; no account required",
+      "platforms": ["Web"],
+      "devices": ["Desktop", "Laptop", "Phone", "Tablet"],
+      "category": "Transcription",
+      "need": "Audio/video to text",
+      "builtIn": false,
+      "setup": "Open otranscribe.com in any browser. Upload your audio or video file, then play it in the built-in player and type the transcript in the same window. Your audio stays in your browser — nothing is uploaded.",
+      "link": "https://otranscribe.com/",
+      "tags": ["transcription", "audio player", "web", "open source", "no account", "free"]
+    },
+    {
+      "id": "google-docs-voice",
+      "name": "Google Docs Voice Typing",
+      "cost": "Free",
+      "costDetail": "Free; requires a free Google account",
+      "platforms": ["Web"],
+      "devices": ["Desktop", "Laptop", "Phone", "Tablet", "Web browser"],
+      "category": "Transcription",
+      "need": "Audio/video to text",
+      "builtIn": false,
+      "setup": "Open docs.google.com in Chrome or Edge, create a new document, then click Tools > Voice typing. Click the microphone icon and speak — text appears in real time. Sign in with a free Google account.",
+      "link": "https://docs.google.com/",
+      "tags": ["dictation", "transcription", "speech-to-text", "web", "google", "free tier", "account required"]
+    },
+    {
+      "id": "youtube-captions",
+      "name": "YouTube Auto-Captions",
+      "cost": "Free",
+      "costDetail": "Free; requires a free Google/YouTube account",
+      "platforms": ["Web"],
+      "devices": ["Desktop", "Laptop", "Phone", "Tablet", "Web browser"],
+      "category": "Transcription",
+      "need": "Audio/video to text",
+      "builtIn": false,
+      "setup": "Go to studio.youtube.com and sign in. Upload your video as Unlisted, wait for YouTube to generate auto-captions, then go to Subtitles > your video > English (Automatic) and download the captions as .vtt, .srt, or .txt.",
+      "link": "https://studio.youtube.com/",
+      "tags": ["captions", "transcription", "youtube", "web", "google", "free tier", "account required"]
+    },
+    {
+      "id": "subtitle-edit",
+      "name": "Subtitle Edit",
+      "cost": "Free",
+      "costDetail": "Free and open source subtitle/caption editor for Windows",
+      "platforms": ["Windows"],
+      "devices": ["Desktop", "Laptop"],
+      "category": "Caption editing",
+      "need": "Edit subtitle/caption files",
+      "builtIn": false,
+      "setup": "Download and install Subtitle Edit from subtitleedit.org. Open an .srt or .vtt caption file, fix timing and text, then save. You can also create captions from scratch and sync them to audio.",
+      "link": "https://subtitleedit.org/",
+      "tags": ["captions", "subtitles", "editor", "open source", "windows", "srt", "vtt"]
+    },
+    {
+      "id": "aegisub",
+      "name": "Aegisub",
+      "cost": "Free",
+      "costDetail": "Free and open source subtitle/caption editor for Windows, macOS, and Linux",
+      "platforms": ["Windows", "macOS", "Linux"],
+      "devices": ["Desktop", "Laptop"],
+      "category": "Caption editing",
+      "need": "Edit subtitle/caption files",
+      "builtIn": false,
+      "setup": "Download Aegisub from aegisub.org and install it for your operating system. Open a subtitle file, edit the text and timing with the built-in audio player and waveform, then save as .ass, .srt, or .vtt.",
+      "link": "https://www.aegisub.org/",
+      "tags": ["captions", "subtitles", "editor", "open source", "cross-platform", "srt", "vtt", "ass"]
+    }
+  ],
+  "groups": {
+    "byNeed": [
+      {
+        "id": "captions",
+        "label": "Live captions",
+        "description": "Real-time captions for speech and audio playing on your device",
+        "toolIds": ["win-live-captions", "macos-live-captions", "ios-live-captions", "chrome-live-caption", "android-live-transcribe"]
+      },
+      {
+        "id": "transcription",
+        "label": "Transcription",
+        "description": "Convert audio or video files into text transcripts",
+        "toolIds": ["whisper-local", "whisper-cpp", "vosk", "otranscribe", "google-docs-voice", "youtube-captions"]
+      },
+      {
+        "id": "dictation",
+        "label": "Dictation",
+        "description": "Speak to type text instead of using the keyboard",
+        "toolIds": ["win-dictation", "win-voice-access", "macos-dictation", "macos-voice-control", "ios-dictation", "gboard"]
+      },
+      {
+        "id": "caption-editing",
+        "label": "Caption editing",
+        "description": "Create and edit subtitle and caption files (.srt, .vtt, .ass)",
+        "toolIds": ["subtitle-edit", "aegisub"]
+      },
+      {
+        "id": "reading",
+        "label": "Reading & playback",
+        "description": "Read-aloud and text-to-speech aids",
+        "toolIds": ["android-select-to-speak"]
+      }
+    ],
+    "byDevice": [
+      {
+        "id": "windows",
+        "label": "Windows",
+        "toolIds": ["win-live-captions", "win-dictation", "win-voice-access", "whisper-local", "whisper-cpp", "subtitle-edit"]
+      },
+      {
+        "id": "macos",
+        "label": "macOS",
+        "toolIds": ["macos-live-captions", "macos-dictation", "macos-voice-control", "whisper-local", "whisper-cpp", "aegisub"]
+      },
+      {
+        "id": "linux",
+        "label": "Linux",
+        "toolIds": ["whisper-local", "whisper-cpp", "vosk", "aegisub"]
+      },
+      {
+        "id": "ios",
+        "label": "iOS (iPhone / iPad)",
+        "toolIds": ["ios-live-captions", "ios-dictation", "gboard"]
+      },
+      {
+        "id": "android",
+        "label": "Android",
+        "toolIds": ["android-live-transcribe", "android-select-to-speak", "gboard", "whisper-cpp", "vosk"]
+      },
+      {
+        "id": "web",
+        "label": "Web (any device)",
+        "toolIds": ["chrome-live-caption", "otranscribe", "google-docs-voice", "youtube-captions"]
+      },
+      {
+        "id": "chromeos",
+        "label": "ChromeOS",
+        "toolIds": ["chrome-live-caption"]
+      }
+    ]
+  }
+}
